@@ -1,0 +1,27 @@
+{
+  "@@locale": "ar",
+  "app_title": "تطبيقي",
+  "@app_title": {
+    "description": "عنوان التطبيق"
+  },
+  "welcome": "أهلاً وسهلاً",
+  "@welcome": {
+    "description": "رسالة ترحيب للمستخدم"
+  },
+  "home": "الرئيسية",
+  "@home": {
+    "description": "تسمية الصفحة الرئيسية"
+  },
+  "categories": "فئاتنا",
+  "@categories": {
+    "description": "تسمية قسم الفئات"
+  },
+  "products": "منتجاتنا",
+  "@products": {
+    "description": "تسمية قسم المنتجات"
+  },
+  "settings": "الإعدادات",
+  "@settings": {
+    "description": "تسمية صفحة الإعدادات"
+  }
+}

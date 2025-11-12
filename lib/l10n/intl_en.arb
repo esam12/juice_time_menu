@@ -1,0 +1,27 @@
+{
+  "@@locale": "en",
+  "app_title": "My App",
+  "@app_title": {
+    "description": "Title of the application"
+  },
+  "welcome": "Welcome",
+  "@welcome": {
+    "description": "Welcome message for the user"
+  },
+  "home": "Home",
+  "@home": {
+    "description": "Label for home page"
+  },
+  "categories": "Our Categories",
+  "@categories": {
+    "description": "Label for categories section"
+  },
+  "products": "Our Products",
+  "@products": {
+    "description": "Label for products section"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Label for settings page"
+  }
+}
