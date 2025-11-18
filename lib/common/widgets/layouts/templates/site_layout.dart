@@ -5,8 +5,8 @@ import 'package:juice_time_menu/common/widgets/responsive/mobile_layout.dart';
 import 'package:juice_time_menu/common/widgets/responsive/tablet_layout.dart';
 
 /// Template for the overall site layout, responsive to different screen sizes
-class ASiteLayout extends StatelessWidget {
-  const ASiteLayout({
+class SiteLayout extends StatelessWidget {
+  const SiteLayout({
     super.key,
     required this.desktop,
     required this.tablet,
