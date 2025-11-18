@@ -11,11 +11,11 @@ class AppTheme {
     scaffoldBackgroundColor: Colors.white,
     textTheme: AppTextStyles.textThemeLight,
     appBarTheme: AppBarTheme(
-      backgroundColor: const Color.fromARGB(255, 247, 196, 208),
+      // backgroundColor: const Color.fromARGB(255, 247, 196, 208),
       titleTextStyle: AppTextStyles.appBarTitle.copyWith(color: Colors.white),
       iconTheme: const IconThemeData(color: Colors.white),
+      elevation: 0,
     ),
-    // إضافة عناصر الثيم الأخرى
   );
 
   static final ThemeData darkTheme = ThemeData(
@@ -28,6 +28,5 @@ class AppTheme {
       titleTextStyle: AppTextStyles.appBarTitle.copyWith(color: Colors.white),
       iconTheme: const IconThemeData(color: Colors.white),
     ),
-    // إضافة عناصر الثيم الأخرى
   );
 }

@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:juice_time_menu/generated/l10n.dart';
+import 'package:juice_time_menu/common/widgets/layouts/templates/site_layout.dart';
+import 'package:juice_time_menu/features/home/presentation/views/widgets/desktop/desktop_view.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text(S.of(context).app_title)),
-      body: Center(child: Text(S.of(context).app_title)),
+    return SiteLayout(
+      desktop: DesktopView(),
+      tablet: Container(),
+      mobile: Container(),
     );
   }
 }
