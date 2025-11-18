@@ -13,7 +13,7 @@ class Header extends StatelessWidget implements PreferredSizeWidget {
     return Container(
       decoration: const BoxDecoration(
         color: AppColors.white,
-        border: Border(bottom: BorderSide(color: AppColors.grey, width: 1)),
+        // border: Border(bottom: BorderSide(color: AppColors.grey, width: 1)),
       ),
       padding: const EdgeInsets.symmetric(
         horizontal: AppSizes.md,
@@ -23,6 +23,7 @@ class Header extends StatelessWidget implements PreferredSizeWidget {
         /// Search Field
         title: Text('39eer Time', style: AppTextStyles.displayLarge(context)),
         centerTitle: true,
+        elevation: 0,
 
         /// Mobile Menu
         // leading: const LanguageDropdown(),
