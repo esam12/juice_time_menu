@@ -45,4 +45,23 @@ class AppColors {
   static const Color softGrey = Color(0xFFF4F4F4);
   static const Color lightGrey = Color(0xFFF9F9F9);
   static const Color white = Color(0xFFFFFFFF);
+
+  static const List<Color> pastelColors = [
+    Color(0xFFFFEBEE), // 0: Red tint (Strawberry)
+    Color(0xFFFFF3E0), // 1: Orange tint (Citrus)
+    Color(0xFFFFFDE7), // 2: Yellow tint (Lemon)
+    Color(0xFFF1F8E9), // 3: Light Green (Lime)
+    Color(0xFFE8F5E9), // 4: Green (Mint)
+    Color(0xFFE0F2F1), // 5: Teal (Fresh)
+    Color(0xFFE1F5FE), // 6: Light Blue (Water/Ice)
+    Color(0xFFE3F2FD), // 7: Blue (Berry)
+    Color(0xFFEDE7F6), // 8: Deep Purple (Grape)
+    Color(0xFFF3E5F5), // 9: Purple (Plum)
+    Color(0xFFFCE4EC), // 10: Pink (Watermelon)
+    Color(0xFFEFEBE9), // 11: Brown (Chocolate/Coffee)
+  ];
+
+  static Color getCategoryColor(int index) {
+    return pastelColors[index % pastelColors.length];
+  }
 }
